@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sty.css">
+
+    <title>Appartement</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/téléchargement.jpeg" alt="">
+            <ul>
+                <li><a href="deposer_annonce.php">Deposer une annonce</a></li>
+                <li><a href="">Trouver un pro</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="connexion.php">Authantifier  vous</a></li>
+                <li><a href="creer_compte.php">Créer un compte</a></li>
+            </ul>
+            
+        </nav>
+    </header><hr>
+    
+
+    <section class="premier-section">
+        <div class="container">
+            <h1>Bienvenue dans cette appartement moderne et confortable,<br>idealement situe pour votre sejoour</h1>
+
+        </div>
+        <img src="images/image8.jpg" alt="Photo appartement">
+    </section>
+
+
+    <section class="deuxieme-section">
+        <div class="container">
+           <h3>NOS APPARTEMENT</h3>
+           <h2>Qu'est ce que nous proposons</h2>
+           
+           <div class="Nos-filieres">
+              <div class="Filiere-1">
+                <img src="images/image4.jpg" alt="">
+                <h3>Conakry</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, animi neque eum, corporis ab enim tempora excepturi obcaecati laudantium </p>
+                <a>Voir plus de details</a>
+              </div>
+
+              <div class="Filiere-2">
+                <img src="images/image9.jpg" alt="">
+                <h3>Labe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere eaque id, fuga sint vero magnam nam, debitis consequatur nobis nemo est quidem, accusamus quas?</p>
+                <a>Voir plus de details</a>
+              </div>
+
+              <div class="Filiere-3">
+                <img src="images/image3.jpg" alt="">
+                <h3>Dalaba</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, cum maxime ut sequi labore, sunt aspernatur, eveniet ullam illum accusamus</p>
+                <a>Voir plus de details</a>
+              </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="troisieme-section">
+          <div class="container">
+            <h5>APPARTEMENT DISPONIBLES A TRAVER LA GUINEE</h5>
+            <a href="">Vener des maintennent</a>
+            <p>nous sommes disponibles tous les jour</p>
+          </div>
+    </section>
+    <div class="container">
+        <h2>Actions utilisateur</h2>
+        <ul>
+            <li><a href="ajouter.php">Ajouter un utilisateur</a></li>
+            <li><a href="modifier.php">Modifier un utilisateur</a></li>
+            <li><a href="supprimer.php">Supprimer un utilisateur</a></li>
+        </ul>
+        
+    </div>
+
+
+
+
+     <footer>
+        <div class="container">
+            <img src="images/téléchargement.jpeg" alt="">
+            <ul class="Pages">
+                <li>Depose une annonce</li>
+                <li>Trouver un pro</li>
+                <li>Blog</li>
+                <li>Authantifier  vous</li>
+                <li>Creer un compte</li>
+            </ul>
+            <ul class="Socials">
+                <li>Linkdin</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+     </footer>
+     <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    
+</body>
+</html>

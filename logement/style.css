@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+   padding: 18px 120px 18px 120px;
+}
+
+header nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header nav img {
+    width: 77px;
+    height: 60px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 23px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.premier-section .container {
+    display: flex;
+    padding: 70px 120px 70px 120px;
+    justify-content: space-between;
+}
+
+.premier-section .container h1 {
+    font-weight: bolder;
+}
+
+.premier-section .container .Partenaire h6{
+    color: gray;
+}
+
+.premier-section .container .Image-Partenaire {
+    display: flex;
+}
+
+.premier-section .container .Image-Partenaire img {
+    width: 60px;
+    height: 30px;
+}
+
+.premier-section img {
+    width: 2000px;
+    height: 1000px ;
+}
+
+
+.deuxieme-section .container {
+    padding: 70px 120px 70px 120px;
+    text-align: center;
+}
+
+.deuxieme-section .container h3 {
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgb(88, 48, 20);
+}
+.deuxieme-section .container h2 {
+    margin-bottom: 47px;
+    margin-top: 9px;
+}
+
+.deuxieme-section .container .Nos-filieres {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.deuxieme-section .container .Nos-filieres p {
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.deuxieme-section .container .Nos-filieres h3 {
+    color: black;
+    font-size: 16px;
+}
+
+.deuxieme-section .container .Nos-filieres a {
+    color: rgb(95, 52, 21);
+}
+
+.deuxieme-section .container .Nos-filieres div {
+    justify-content: center;
+    text-align: center;
+}
+
+.deuxieme-section .container .Nos-filieres div img {
+    height: 250px;
+    width: 250px;
+}
+
+.troisieme-section {
+    background-image: url(images/image7.jpg);
+    background-size: cover;
+}
+
+.troisieme-section .container {
+    padding: 170px 0 170px 0;
+    text-align: center;
+}
+
+.troisieme-section .container h5 {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 29px;
+}
+
+.troisieme-section .container a {
+    color: rgb(93, 47, 6);
+    background: white;
+    padding: 18px 24px 18px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.troisieme-section .container p {
+    color: gray;
+    padding-top: 29px;
+    font-size: 14px;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .container ul {
+    justify-content: center;
+}
+
+footer .container img {
+    margin-top: 20px;
+    width: 70px;
+    height: 60px;
+}
+
+footer .container .Socials {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer .container .Pages {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+
+
+
